@@ -30,7 +30,7 @@ system-health-report/
 ├── dist/
 │   └── SystemInsight.exe
 │
-├── tools/
+├── tool/
 │   ├── ps2exe.ps1
 │   └── Win-PS2EXE-GUI.exe
 │
@@ -171,9 +171,6 @@ powershell -ExecutionPolicy Bypass -File ps2exe.ps1 `
 -inputFile ..\src\system-report.ps1 `
 -outputFile ..\dist\SystemInsight.exe
 ```
-
-This will generate the executable in the `dist` folder.
-
 ---
 
 # Method 2 — Using the GUI Tool
@@ -244,9 +241,7 @@ This tool can be useful for:
 
 ---
 
-# Security Note
-
-Security Note:
+# ⚠️Security Note
 The source code is provided so users can review the script before running the executable.
 You may also compile the executable yourself using the included PS2EXE tool.
 
